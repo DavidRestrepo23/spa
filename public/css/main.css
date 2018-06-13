@@ -1,0 +1,15 @@
+.active{
+	color:#119172;
+}
+
+.inactive{
+	color:#FF3636;
+}
+
+.draft{
+	color:orange;
+}
+
+.published{
+	color:#119172;
+}

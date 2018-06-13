@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body, h1, h2, h3, h4, h5, p, span, a{
+
+	font-family: 'Raleway', sans-serif;
+}
+
+
+a{
+	color:#a1a1a1;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+header{
+	 display: table;
+	  width: 100%;
+	  height: 350px;
+	  padding: 120px 0;
+	  text-align: inherit;
+	  color: white;
+	  background: url(../img/blog/header.jpg) no-repeat center center scroll;
+	  background-color: black;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: cover;
+	  -o-background-size: cover;
+	  margin-bottom: 60px;
+}
+
+
+.content{
+	border:1px solid #eeeeee;padding: 30px;
+	-webkit-box-shadow: -1px 0px 42px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 0px 42px -8px rgba(0,0,0,0.75);
+	box-shadow: -1px 0px 42px -8px rgba(0,0,0,0.75);
+	margin-bottom: 60px;
+}
+
+.navbar{
+	border:0;
+	border-radius: 0;
+}
+
+
+.dropdown-toggle:focus{
+	background: red;
+}
+
+.img-category span a{
+	position: absolute;
+	margin-top: -30px;
+	background: #FF3636;
+	padding: 5px;
+	color:white;
+}
+.img-category span a:hover{
+	text-decoration: none;
+}
+
+.img-category img{
+	width: 100%;
+}
+.datetime{
+	color:#a1a1a1;
+}
+
+.badge{
+	background:#FF3636;
+}

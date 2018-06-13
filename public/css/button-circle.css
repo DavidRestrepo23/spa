@@ -1,0 +1,45 @@
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  position:fixed;top:130px;right:15px;margin:0;padding:5px 3px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+ .has-error input{
+    border-radius:0;
+   
+}
+        
+.no-error input{
+    border-radius:0;
+    font-size:12pt;
+    border:1px solid #C5C5C5;
+}
+
+.help-block{
+  background-color: #FF3636;
+  padding: 10px;
+  color:white;
+
+}
