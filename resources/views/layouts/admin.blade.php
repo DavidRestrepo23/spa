@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href=" {{ asset('vendors/dashboard/assets/img/favicon.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Dashboard - la quinta agencia</title>
+    <title>Dashboard - SPA</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -34,13 +34,13 @@
 
 <body class="">
     <div class="wrapper ">
-        <div class="sidebar" data-color="red">
+        <div class="sidebar" data-color="blue">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
             <div class="logo">
-                <a href="http://laquintaagencia.com/blog.php" class="simple-text logo-normal text-center">
-                    <img src="{{ asset('img/icon.png') }}" style="width: 60px;" alt="">
+                <a href="" class="simple-text logo-normal text-center">
+                    <img src="https://www.crearlogogratisonline.com/images/crearlogogratis_1024x1024_01.png" style="width: 60px;" alt="">
                 </a>
             </div>
             <div class="sidebar-wrapper">
@@ -211,3 +211,4 @@
 
 
 </html>
+

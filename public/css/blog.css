@@ -45,13 +45,13 @@ header{
 
 
 .dropdown-toggle:focus{
-	background: red;
+	background: #9f81f7;
 }
 
 .img-category span a{
 	position: absolute;
 	margin-top: -30px;
-	background: #FF3636;
+	background: #9f81f7;
 	padding: 5px;
 	color:white;
 }
@@ -67,5 +67,5 @@ header{
 }
 
 .badge{
-	background:#FF3636;
+	background:#9f81f7;
 }

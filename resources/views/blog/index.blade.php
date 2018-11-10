@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<title> Blog La Quinta Agencia - Blog </title>	
+	<title> SPA Blog</title>	
 	<meta name="author" content="La Quinta Agencia">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -56,7 +56,7 @@
 										{{$postLast->excerpt}}
 									</p>
 									<hr>
-									<a href="{{ url('/'.$postLast->slug) }}" class="btn btn-default" style="background: #ff3636;color:white">Leer más <i class="fas fa-chevron-right"></i></a>
+									<a href="{{ url('/'.$postLast->slug) }}" class="btn btn-default" style="background: #9f81f7;color:white">Leer más <i class="fas fa-chevron-right"></i></a>
 								</div>
 							</div>
 						<!-- featured post -->

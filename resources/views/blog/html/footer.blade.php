@@ -1,4 +1,4 @@
-<footer style="background: #212121;color:#F0432F;font-size: 13pt;">
+{{-- <footer style="background: #212121;color:#F0432F;font-size: 13pt;">
 <div class="container">
 			<div class="row" style="margin-top: 5%;">
 				<div class="col-xs-12 col-sm-12 col-md-3">
@@ -47,12 +47,12 @@
 			</div>
 			<br><br><br>
 		</div>		
-</footer>
-<section style="background: #FF3636">
+</footer> --}}
+<section style="background: #9f81f7">
 	<div class="container">
 		<div class="row" style="padding: 30px;color:white;font-size: 13pt;">
 			<div class="col-xs-12 col-sm-12 text-center">
-				Diseño y desarrollo  <a style="color:white" href="http:://laquintaagencia.com">La Quinta Agencia</a>
+				<a style="color:white" href="">SPA</a>
 				<br> Medellín - Colombia <br> {{date('Y')}}
 			</div>
 		</div>

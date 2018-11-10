@@ -11,13 +11,13 @@
 				<hr>
 				<i class="fas fa-tag"></i> Etiquetas:  
 					@foreach($post->tags as $tag)
-						 <span style="color:#ff3636">{{$tag->name}}</span> 
+						 <span style="color:#9f81f7">{{$tag->name}}</span> 
 					@endforeach
 					&nbsp | &nbsp
-				<i class="fas fa-folder-open"></i> Categoria <span style="color:#ff3636">{{$post->category->name}}</span>  &nbsp&nbsp |  &nbsp
-				<i class="fas fa-user"></i> Autor <span style="color:#ff3636">{{$post->user->name}}</span> &nbsp&nbsp | &nbsp
-				<i class="fas fa-clock"></i> Fecha de creación <span style="color:#ff3636">{{$post->created_at}}</span> &nbsp&nbsp | &nbsp
-				<i class="fas fa-check"></i> Estado <span style="color:#ff3636">{{$post->post_status}}</span>
+				<i class="fas fa-folder-open"></i> Categoria <span style="color:#9f81f7">{{$post->category->name}}</span>  &nbsp&nbsp |  &nbsp
+				<i class="fas fa-user"></i> Autor <span style="color:#9f81f7">{{$post->user->name}}</span> &nbsp&nbsp | &nbsp
+				<i class="fas fa-clock"></i> Fecha de creación <span style="color:#9f81f7">{{$post->created_at}}</span> &nbsp&nbsp | &nbsp
+				<i class="fas fa-check"></i> Estado <span style="color:#9f81f7">{{$post->post_status}}</span>
 				<hr>
 				<img src=" {{$post->file}}" style="width: 100%;" alt="">
 				<hr>

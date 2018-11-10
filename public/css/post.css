@@ -14,10 +14,10 @@
 
 
 
-/*Newsletter*/
+/*Newsletter #FF3636*/
 .home-newsletter {
 padding: 80px 0;
-background: #FF3636;
+background: #9f81f7;
 width: 100%;
 padding: 20px;
 }
@@ -136,8 +136,8 @@ color: #fff;
   background: #3f729b;
 }
 .icon-gplus {
-  color: #dc4e41;
+  color: #9f81f7;
 }
 .icon-gplus::after {
-  background: #dc4e41;
+  background: #9f81f7;
 }

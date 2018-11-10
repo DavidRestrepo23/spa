@@ -16,7 +16,7 @@ Route::get('autores', 'Web\ProfileController@index');
 
 Route::namespace('Web')->group(function(){
 	Route::get('/', 'HomeController@index');
-	Route::get('/busqueda/', 'SearchController@show');
+	Route::get('/busqueda', 'SearchController@show');
 	Route::get('/{slug}', 'PostController@show');
 	Route::get('/categoria/{slug}', 'CategoryController@show');
 	Route::get('/perfil/autor/{nickname}', 'ProfileController@show');

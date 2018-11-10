@@ -8,7 +8,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#"><img style="width: 30px;margin-top: -5px;" src="{{ asset('img/icon.png') }}" alt=""></a>
+	      <a class="navbar-brand" href="#"><img style="width: 30px;margin-top: -5px;" src="https://www.crearlogogratisonline.com/images/crearlogogratis_1024x1024_01.png" alt=""></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
