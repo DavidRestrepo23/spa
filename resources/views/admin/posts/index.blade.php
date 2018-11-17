@@ -4,8 +4,8 @@
 @section('content')
 	<div class="col-md-12" id="datatable">
   <div class="card">
-      <div class="card-header">
-          <h4 class="card-title"><i class="fas fa-file"></i> Mis Entradas</h4> <hr>
+      <div class="card-header  pl-4">
+          <h4 class="card-title"> Mis Entradas</h4> <hr>
           <a href="{{ route('posts.create') }}" class="btn btn-primary"><i class="fas fa-plus"></i> Agregar nueva entrada</a>
           <hr>
       </div>

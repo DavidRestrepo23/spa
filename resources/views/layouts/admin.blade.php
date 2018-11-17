@@ -45,6 +45,7 @@
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
+                    <hr>
                      <li>
                         <a href="{{ route('posts.create') }}">
                             <i class="now-ui-icons ui-1_simple-add"></i>
@@ -146,7 +147,7 @@
              <div class="panel-header panel-header-sm">
             </div>
             <div class="content">
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                     @yield('content')
                 </div>
             </div>
