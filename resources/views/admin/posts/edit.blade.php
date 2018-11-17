@@ -5,7 +5,7 @@
 <div class="col-md-12">
   <div class="card" style="margin-bottom: 20px;">
       <div class="card-header">
-          <h5 class="card-title"><i class="fas fa-edit"></i> Editar entrada</h5>
+          <h5 class="card-title pl-4"> Editar entrada</h5>
       </div>
       {!!Form::model($post, ['route' => ['posts.update', $post->id], 'method' => 'PUT', 'files' => true])!!}
       {{ csrf_field() }}

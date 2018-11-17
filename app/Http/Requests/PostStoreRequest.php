@@ -1,4 +1,4 @@
-    <?php
+<?php
 
 namespace App\Http\Requests;
 
@@ -22,11 +22,10 @@ class PostStoreRequest extends FormRequest
      * @return array
      */
     public function rules()
-    {   
-
-        $rules = [
+    {
+       $rules = [
             'title' => 'required|string',
-            'slug' => 'required|unique:posts,slug',
+            'slug' => 'required|unique:posts',
             'excerpt' => 'string|max:255',
             'body' => 'required|string',
             'status' => 'required|in:DRAFT,PUBLISHED',

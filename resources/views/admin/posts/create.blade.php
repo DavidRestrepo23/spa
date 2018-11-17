@@ -5,7 +5,7 @@
 <div class="col-md-12">
   <div class="card" style="margin-bottom: 20px;">
       <div class="card-header">
-          <h5 class="card-title"><i class="now-ui-icons ui-1_simple-add"></i> Nueva entrada</h5>
+          <h5 class="card-title pl-4"> Nueva entrada</h5>
       </div>
       {!!Form::open(['route' => 'posts.store','method' => 'POST', 'files' => true])!!}
       {{ csrf_field() }}

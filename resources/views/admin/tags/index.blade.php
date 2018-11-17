@@ -4,15 +4,15 @@
 @section('content')
 	<div class="col-md-12" id="datatable">
   <div class="card">
-      <div class="card-header">
-          <h4 class="card-title"><i class="fas fa-tags"></i> Etiquetas</h4> <hr>
+      <div class="card-header pl-4">
+          <h4 class="card-title"> Etiquetas</h4> <hr>
           @can('create.tags')
           <a href="{{ route('tags.create') }}" class="btn btn-primary"><i class="fas fa-plus"></i> Agregar nueva etiqueta</a>
           <hr>
           @endcan
           
       </div>
-      <div class="card-body col-xs-12 col-sm-8">
+      <div class="card-body col-xs-12 col-sm-12">
           <div class="table-responsive">
               <table id="table" class="table">
                   <thead class=" text-primary">
